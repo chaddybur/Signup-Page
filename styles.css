@@ -1,0 +1,123 @@
+.pic img{
+    width: 50%;
+    height: 50rem;
+    float: left;
+    margin: 0; 
+
+}
+.logo img{
+    width:50%;
+    height: 10rem;
+    float: right;
+    position: absolute;
+    opacity: 70%;
+    margin-top: 20%;
+}
+.banjunk{
+    color: #66717E;
+    text-shadow: 1px 1px #03004D;
+    text-decoration: underline;
+}
+.right{
+    width: 50%;
+    float: left;
+    font-family: monospace;
+    color:#66717E;
+    background-color: #292500;
+}
+.right p {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: xx-large;
+    line-height: 1em;
+}
+.right div{
+    font-size: 2rem;
+    color: #8B0000;
+    padding-left: 4rem;
+    padding-bottom: 2rem;;
+}
+.form{
+    width: 50%;
+    height: 90.2vh;
+    float: left;
+    margin: 0;
+    background-color: black;
+
+}
+label, input{
+    display: block; 
+    color: #66717E;
+    width: 10rem;
+    font-size: large;
+    text-shadow: .5px .5px #03004D;
+}
+input{
+    background-color: #292500;
+}
+.first-name{
+    float:left;
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 1rem;
+}
+.last-name{
+    float: right;
+    width: 40%;
+    padding-top: 1rem;
+}
+.e-mail{
+    float:left;
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 1rem;
+}
+.number{
+    float: right;
+    width: 40%;
+    padding-top: 1rem;
+}
+.password{
+    float:left;
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.confirm{
+    float: right;
+    width: 40%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+button{
+    background-color: #03004D;
+    color: grey;
+    border-radius: 30%;
+    margin-left: 13.5rem;
+    width: 10rem;
+    height: 3rem;
+    box-shadow: 1px 1px #292500;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: large;
+}
+.already{
+    color: white;
+    padding-top: 2rem;
+    margin-left: 10.5rem;;
+}
+/* Selects any invalid <input> */
+input:invalid {
+    background-color: black;
+  }
+  a:link{
+      color:#66717E;
+  }
+  a:active{
+      color: #8B0000;
+  }
+  a:visited{
+      color: #8B0000;
+  }
